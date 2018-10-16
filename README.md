@@ -1,4 +1,4 @@
-# Talk: Performance v/s maintainability: how to develop Python-rich scalable high-performance applications #
+# High performance scientific computing with Python
 
 ### Key Dates ###
 * CFP closes on October 16th
