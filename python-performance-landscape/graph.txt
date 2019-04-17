@@ -1,5 +1,5 @@
 # adjacency list
-Python Cython Pythran Numba numpy.f2py xtensor-python rust-numpy PyPy pyjulia mpi4py multiprocessing threading asyncio
+Python Cython Pythran Numba numpy.f2py xtensor-python rust-numpy PyPy pyjulia mpi4py multiprocessing threading asyncio Cupy ArrayFire Bohrium Cocos hpat
 C SWIG Cython
 C++ SWIG Cython Boost.Python xproject
 Fortran numpy.f2py
@@ -10,9 +10,11 @@ Pythran Cython xsimd Boost.Python
 xproject xtensor xtensor-python xsimd
 xtensor xtensor-python
 # parallelization through external runtime libraries
-CUDA Numba
+OpenCL ArrayFire Bohrium
+CUDA Numba ArrayFire Cupy Bohrium
+ArrayFire Cocos
 OpenMP Cython Pythran Numba
-MPI mpi4py
+MPI mpi4py hpat
 SIMD Pythran xsimd Numba
 # parallelization through python standard libraries
 multiprocessing dask
