@@ -12,6 +12,7 @@ colors = {
         "Cocos",
         "hpat",
         "numpy.f2py",
+        "f90wrap",
         "PyPy",
         "pyjulia",
         "mpi4py",
@@ -21,6 +22,7 @@ colors = {
         "numba",
         "dask",
         "trio",
+        "transonic",
     ),
     "pink": (
         "C",
@@ -32,7 +34,7 @@ colors = {
         "xtensor",
         "xtensor-python",
         "Bohrium",
-        "ArrayFire"
+        "ArrayFire",
     ),
     "goldenrod": ("Rust", "rust-numpy"),
     "grey": ("Fortran",),
@@ -47,6 +49,26 @@ for node in G.nodes():
     if not color:
         raise ValueError(f"Color undefined for {node}")
     node_color.append(color[0])
+    G.node[node]["value"] = color[0]
 
-nx.draw(G, with_labels=True, node_shape="s", node_color=node_color)
+type_plot = "classic"
+#  type_plot = "circos"
+
+if type_plot == "classic":
+    # Classic graphviz plot
+    nx.draw(G, with_labels=True, node_shape="o", node_color=node_color,
+            node_size=5000)
+elif type_plot == "circos":
+    from nxviz.plots import CircosPlot as Plot
+
+    c = Plot(
+        G,
+        node_color="value",
+        node_order="value",
+        node_labels=True,
+        # , node_color=node_color
+    )
+    c.draw()
+plt.tight_layout()
+# plt.savefig("graph.svg")
 plt.show()
