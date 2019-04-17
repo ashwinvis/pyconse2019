@@ -1,5 +1,7 @@
 # High performance scientific computing with Python
 
+![](./python-performance-landscape/graph.png)
+
 ### Key Dates ###
 * CFP closes on October 16th
 * Response at the end of October

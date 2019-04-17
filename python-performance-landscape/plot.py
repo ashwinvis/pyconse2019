@@ -54,10 +54,17 @@ for node in G.nodes():
 type_plot = "classic"
 #  type_plot = "circos"
 
+plt.figure(figsize=(8,5), dpi=150)
 if type_plot == "classic":
     # Classic graphviz plot
-    nx.draw(G, with_labels=True, node_shape="o", node_color=node_color,
-            node_size=5000)
+    nx.draw(
+        G,
+        with_labels=True,
+        node_shape="o",
+        node_color=node_color,
+        node_size=600,
+        font_size=8
+    )
 elif type_plot == "circos":
     from nxviz.plots import CircosPlot as Plot
 
@@ -70,5 +77,5 @@ elif type_plot == "circos":
     )
     c.draw()
 plt.tight_layout()
-# plt.savefig("graph.svg")
+plt.savefig("graph.png")
 plt.show()

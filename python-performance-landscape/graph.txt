@@ -2,7 +2,7 @@
 Python Cython Pythran Numba numpy.f2py xtensor-python rust-numpy PyPy pyjulia mpi4py multiprocessing threading asyncio Cupy ArrayFire Bohrium Cocos hpat transonic f90wrap
 C SWIG Cython
 C++ SWIG Cython Boost.Python xproject
-Fortran numpy.f2py f90wrap Cython
+Fortran numpy.f2py f90wrap C
 Rust rust-numpy
 Julia PyCall.jl
 pyjulia PyCall.jl
