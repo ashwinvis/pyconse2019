@@ -23,6 +23,7 @@ colors = {
         "dask",
         "trio",
         "transonic",
+        "arrayfire-python",
     ),
     "pink": (
         "C",
@@ -35,6 +36,7 @@ colors = {
         "xtensor-python",
         "Bohrium",
         "ArrayFire",
+        "ROCm",
     ),
     "goldenrod": ("Rust", "rust-numpy"),
     "grey": ("Fortran",),
