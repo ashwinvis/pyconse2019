@@ -1,4 +1,4 @@
-# High performance scientific computing with Python
+# High performance Python
 
 ![](./python-performance-landscape/graph.png)
 
