@@ -1,9 +1,8 @@
 # About Me
-Ph.D. student at  Dept. of Mechanics, KTH, Stockholm. I also have over four
-years of experience as a core developer for an open-source research project,
-FluidDyn, which develops Python packages for educational and research purposes.
-I have also contributed to Pythran and Transonic which are relevant to this
-talk.
+Ph.D. in Engineering Mechanics from KTH, Stockholm and post-doctoral researcher
+at MISU, Stockholm University. I have five years of experience as a core
+developer for an open-source research project, FluidDyn and I have contributed
+to Pythran and Transonic which are relevant to this talk.
 
 ## Articles
 * FluidDyn: a Python open-source framework for research and teaching in fluid dynamics. http://openresearchsoftware.metajnl.com/articles/10.5334/jors.237/
