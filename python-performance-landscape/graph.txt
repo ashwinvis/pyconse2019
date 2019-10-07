@@ -1,21 +1,23 @@
 # adjacency list
-Python Cython Pythran Numba numpy.f2py xtensor-python rust-numpy PyPy pyjulia mpi4py multiprocessing threading asyncio Cupy ArrayFire Bohrium Cocos hpat transonic f90wrap
+Python Cython Pythran Numba numpy.f2py xtensor-python rust-numpy PyPy pyjulia mpi4py multiprocessing threading asyncio Cupy ArrayFire Bohrium Cocos hpat transonic f90wrap pyccel SWIG
 C SWIG Cython
 C++ SWIG Cython Boost.Python xproject
 Fortran numpy.f2py f90wrap C
 Rust rust-numpy
 Julia PyCall.jl
 pyjulia PyCall.jl
-Pythran Cython xsimd Boost.Python
-transonic Pythran
+Pythran C++ Cython xsimd Boost.Python
+pyccel Fortran
+transonic Pythran Cython Numba
 arrayfire-python Cocos
 xproject xtensor xtensor-python xsimd
 xtensor xtensor-python
 # parallelization paradigms and libraries
 OpenCL ArrayFire Bohrium ROCm
 CUDA Numba ArrayFire Cupy Bohrium
-OpenMP Cython Pythran Numba
-MPI mpi4py hpat
+OpenMP Cython Pythran Numba pyccel
+OpenACC pyccel CUDA
+MPI mpi4py hpat pyccel
 SIMD Pythran xsimd Numba
 # python bindings for C++ libraries
 ArrayFire arrayfire-python
@@ -24,3 +26,4 @@ ROCm Numba
 multiprocessing dask
 threading dask Numba
 asyncio trio
+# vim: set tw=1000

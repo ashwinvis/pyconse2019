@@ -24,6 +24,7 @@ colors = {
         "trio",
         "transonic",
         "arrayfire-python",
+        "pyccel",
     ),
     "pink": (
         "C",
@@ -41,7 +42,7 @@ colors = {
     "goldenrod": ("Rust", "rust-numpy"),
     "grey": ("Fortran",),
     "forestgreen": ("Julia", "PyCall.jl"),
-    "slategrey": ("CUDA", "OpenCL", "OpenMP", "MPI", "SIMD"),
+    "slategrey": ("CUDA", "OpenCL", "OpenMP", "OpenACC", "MPI", "SIMD"),
 }
 
 G = read_adjlist("graph.txt")
@@ -56,7 +57,7 @@ for node in G.nodes():
 type_plot = "classic"
 #  type_plot = "circos"
 
-plt.figure(figsize=(8,5), dpi=150)
+plt.figure(figsize=(10,7), dpi=150)
 if type_plot == "classic":
     # Classic graphviz plot
     nx.draw(
