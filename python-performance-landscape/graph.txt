@@ -1,7 +1,7 @@
 # adjacency list
-Python Cython Pythran Numba numpy.f2py xtensor-python PyO3 Weld PyPy pyjulia transonic f90wrap pyccel SWIG cffi numexpr
+Python Cython Pythran Numba numpy.f2py xtensor-python PyO3 Weld PyPy pyjulia transonic f90wrap pyccel SWIG cffi numexpr pybind11
 C SWIG Cython cffi numexpr
-C++ C SWIG Cython Boost.Python xtensor xsimd
+C++ C SWIG Cython Boost.Python xtensor xsimd pybind11
 Fortran numpy.f2py f90wrap C
 Rust rust-numpy Weld PyO3
 PyO3 rust-numpy

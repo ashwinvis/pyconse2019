@@ -27,7 +27,8 @@ colors = {
         "pyccel",
         "cffi",
         "numexpr",
-        "RPython"
+        "RPython",
+        "pybind11",
     ),
     "pink": (
         "C",

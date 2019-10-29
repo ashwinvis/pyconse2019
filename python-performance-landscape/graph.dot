@@ -30,6 +30,8 @@ strict graph "" {
 	Python -- cffi;
 	numexpr	[value=skyblue];
 	Python -- numexpr;
+	pybind11	[value=skyblue];
+	Python -- pybind11;
 	Cython -- Pythran;
 	Cython -- transonic;
 	C	[value=pink];
@@ -68,6 +70,7 @@ strict graph "" {
 	cffi -- C;
 	cffi -- RPython;
 	numexpr -- C;
+	pybind11 -- "C++";
 	C -- "C++";
 	C -- Fortran;
 	C -- RPython;
