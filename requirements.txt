@@ -11,6 +11,7 @@ cffi==1.12.2              # via cryptography
 cryptography==2.6.1       # via nxviz
 cycler==0.10.0            # via matplotlib
 decorator==4.4.0          # via networkx
+graphviz2drawio==0.1.0
 hypothesis==4.14.0        # via nxviz
 kiwisolver==1.0.1         # via matplotlib
 matplotlib==3.0.3
@@ -29,7 +30,9 @@ pytest==4.3.1             # via nxviz
 python-dateutil==2.8.0    # via matplotlib, pandas
 pytz==2019.1              # via pandas
 pyyaml==5.1               # via nxviz
+raven==6.10.0             # via graphviz2drawio
 scipy==1.2.1              # via seaborn
 seaborn==0.9.0            # via nxviz
 six==1.12.0               # via cryptography, cycler, pytest, python-dateutil
 sphinxcontrib-fulltoc==1.2.0  # via nxviz
+svg.path==3.1             # via graphviz2drawio

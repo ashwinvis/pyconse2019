@@ -1,0 +1,18 @@
+# adjacency list
+Python Cython Pythran Numba mpi4py multiprocessing threading asyncio Cupy ArrayFire Bohrium Cocos hpat pyccel
+arrayfire-python Cocos
+# parallelization paradigms and libraries
+OpenCL ArrayFire Bohrium ROCm
+CUDA Numba ArrayFire Cupy Bohrium
+OpenMP Cython Pythran Numba pyccel
+OpenACC pyccel CUDA
+MPI mpi4py hpat pyccel
+SIMD Pythran xsimd Numba
+# python bindings for C++ libraries
+ArrayFire arrayfire-python
+ROCm Numba
+# parallelization through python standard libraries
+multiprocessing dask
+threading dask Numba
+asyncio trio
+# vim: set tw=1000
